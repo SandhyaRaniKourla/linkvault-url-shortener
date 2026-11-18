@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="src/LinkVault.API/LinkVault.API.csproj" Id="9b831b92-3feb-4da2-b092-aa53f41e8d6c" />
+  <Project Path="src/LinkVault.Application/LinkVault.Application.csproj" Id="6d076019-e2e0-4d80-abdc-53c11ba18751" />
+  <Project Path="src/LinkVault.Domain/LinkVault.Domain.csproj" Id="cb50f3b9-7ad4-4bd5-8c62-8e3bcb1c9784" />
+  <Project Path="src/LinkVault.Infrastructure/LinkVault.Infrastructure.csproj" Id="47a592ac-bf34-4f6b-bb29-1a42a25c78fa" />
+  <Project Path="tests/LinkVault.IntegrationTests/LinkVault.IntegrationTests.csproj" Id="4a96f0bf-1a81-4f13-831f-9617507af639" />
+  <Project Path="tests/LinkVault.UnitTests/LinkVault.UnitTests.csproj" Id="e7c8e77d-e5a5-4e76-a42e-75d90324599e" />
+</Solution>
