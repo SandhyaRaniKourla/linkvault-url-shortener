@@ -1,0 +1,21 @@
+
+services:
+  postgres:
+    image: postgres:17
+    container_name: linkvault-postgres
+    environment:
+      POSTGRES_DB: linkvault
+      POSTGRES_USER: linkvault_user
+      POSTGRES_PASSWORD: linkvault_dev_password
+    ports:
+      - "5432:5432"
+    volumes:
+      - linkvault_postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U linkvault_user -d linkvault"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  linkvault_postgres_data:
